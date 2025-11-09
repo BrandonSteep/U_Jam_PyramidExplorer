@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edbe3f343098e04c8c729a364c55e1d, type: 3}
+  m_Name: Note_1_BookOfCurses
+  m_EditorClassIdentifier: 
+  noteName: Book of Curses
+  noteImage: {fileID: 2800000, guid: 9e8444de955ef2446aedcf6f069ab889, type: 3}
+  noteContents:
+  - '~ Chapter One ~
+
+
+    Stepping into the Lion''s Den'
+  - 'Her car was busted, it was late at night, and she was far, far from home.
+
+
+    She
+    could barely even hear her own sobbing over the hammering of the rain against
+    the windshield.'
+  - 'But thank the heavens - she found solace!
+
+
+    A large building stood proud,
+    welcoming her in with its foreign allure. Perhaps she could ask for help? Maybe
+    they''d have a phone to call home? Possibly even a shower to help her regain
+    her senses?'
+  - 'But something was off.
+
+
+    She didn''t know it until it was too late.
+
+
+    Stepping
+    through the echoing halls, considering her surroundings, noticing the lack of
+    human presence, the sour taste, the twisting knots in the air.'
+  - 'Her stomach turned itself upside down when she found herself reading a dusty
+    old book, which seemed to describe this very night.
+
+
+    No. You''re not going
+    mad. You shouldn''t have come here.'
+  - Bang.

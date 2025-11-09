@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d22a748d0eff24187a2d7cb6386bea, type: 3}
+  m_Name: PlayerSettings_Default
+  m_EditorClassIdentifier: 
+  cameraFov: {fileID: 11400000, guid: 6721ebfe60023c54ea96ac89755fec76, type: 2}
+  mouseSensitivity: {fileID: 11400000, guid: 1722e959f4fde4c4c912819327adebe9, type: 2}
+  mouseSmoothTime: {fileID: 11400000, guid: 71ca56f8d1ee3844c93ca29edb1ca841, type: 2}
+  inspectInvertedControls: 1
+  inspectionMouseRotation: 0
+  inspectionLookSensitivity: 0.35
+  inspectionLooksSmoothTime: 0.3
+  inspectionRotationSensitivity: 0.5
+  inspectionRotationSmoothTime: 0.1
+  inspectionMovementSensitivity: 0.5
+  inspectionMovementSmoothTime: 0.1

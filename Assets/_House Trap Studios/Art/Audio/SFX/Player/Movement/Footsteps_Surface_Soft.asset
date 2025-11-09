@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f5bcf74bde7b845a7848f0e5ead2f0, type: 3}
+  m_Name: Footsteps_Surface_Soft
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: b7894bce66d5d9c4f8b1292a30eeedd7, type: 3}
+  - {fileID: 8300000, guid: 6b726ed816c58ff43817bdc659c5eafa, type: 3}
+  - {fileID: 8300000, guid: 1a05a98b60d145f46a898eb223967636, type: 3}
+  - {fileID: 8300000, guid: c3853c30887d44e479a4104afcd8d53b, type: 3}
+  - {fileID: 8300000, guid: 1eae5c8e8d9214c42b59170550051eb0, type: 3}
+  - {fileID: 8300000, guid: 5a301f68150bd0f45a430c8d8889b70b, type: 3}

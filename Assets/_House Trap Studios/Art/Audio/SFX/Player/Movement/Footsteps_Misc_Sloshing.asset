@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f5bcf74bde7b845a7848f0e5ead2f0, type: 3}
+  m_Name: Footsteps_Misc_Sloshing
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: ed10289f344c34e4c8e8911cef4b16b1, type: 3}
+  - {fileID: 8300000, guid: 32cdb5cbf77bea243b5c60e91b62e966, type: 3}
+  - {fileID: 8300000, guid: 225c1d11b9911c74890932ec5a79284b, type: 3}
+  - {fileID: 8300000, guid: 4759f0ddd5f58a64ab3efc628c51b24c, type: 3}
+  - {fileID: 8300000, guid: 128086d369d5c394fbd430ad2e1c14bd, type: 3}
+  - {fileID: 8300000, guid: 805c0f32ee183b448a8a3ff0a6fa1bc9, type: 3}
+  - {fileID: 8300000, guid: c13ba1fd41519bf478be97a8028a5fca, type: 3}

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - GameManager
+  - Enemy
+  - LocationTracker
+  - CloseTrigger
+  - Interactable
+  - InteractUI
+  - InspectUI
+  - Pickup
+  - Damaging
+  - Ability
+  - Equipped
+  - Music
+  - ObjectPool
+  - Ground
+  - EnemyManager
+  - EnemySpawner
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Post-Processing
+  - Water
+  - UI
+  - Equipped
+  - InteractTrigger
+  - Trigger
+  - Equipped
+  - GameManager
+  - Target
+  - Obstruction
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  m_RenderingLayers:
+  - Default

@@ -1,0 +1,1425 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &814444070525601758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4141523102811435675}
+  m_Layer: 0
+  m_Name: ConcertHall_Chairs_Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4141523102811435675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814444070525601758}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: 0, z: 5.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2186481798396153329}
+  - {fileID: 911209932301146192}
+  - {fileID: 6567990770435533596}
+  - {fileID: 4737584085917578013}
+  - {fileID: 874034807851532951}
+  - {fileID: 2894258042154790875}
+  - {fileID: 3387380651633047054}
+  - {fileID: 6940003937425428904}
+  - {fileID: 8850888851964703636}
+  - {fileID: 2380135091309551322}
+  - {fileID: 7340665961181032754}
+  - {fileID: 8657815229600387270}
+  - {fileID: 7244060939230732363}
+  - {fileID: 1972669849925801294}
+  - {fileID: 794312147419747553}
+  - {fileID: 7108373960429587465}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1163431177164852131
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &2894258042154790875 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 1163431177164852131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1661066190932202102
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &3387380651633047054 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 1661066190932202102}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1803936181562391202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.8000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &2380135091309551322 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 1803936181562391202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2553394624127430966
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.6000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &1972669849925801294 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 2553394624127430966}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2763204367727208841
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &2186481798396153329 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 2763204367727208841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3677990190947365017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.8000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &794312147419747553 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 3677990190947365017}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3759973670888662767
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &874034807851532951 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 3759973670888662767}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3794962991765306408
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &911209932301146192 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 3794962991765306408}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4623388341910303934
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &8657815229600387270 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 4623388341910303934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4817587864179087340
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &8850888851964703636 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 4817587864179087340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6359354153352607184
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &6940003937425428904 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 6359354153352607184}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6532799272653973617
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &7108373960429587465 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 6532799272653973617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6667365033327182899
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.3999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &7244060939230732363 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 6667365033327182899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6760016202863318346
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &7340665961181032754 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 6760016202863318346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7145276272538029924
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &6567990770435533596 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 7145276272538029924}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8768624503566341989
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4141523102811435675}
+    m_Modifications:
+    - target: {fileID: 2578155258166090122, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039313971843555261, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_Name
+      value: ConcertHall_ChairRow (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562435067355613034, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142857928267826702, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357562273664771904, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303661138085759969, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330069370315163197, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3540
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+--- !u!4 &4737584085917578013 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4039498135971734648, guid: 2b7cef4eea46b8b4fb7fbeeec896f424, type: 3}
+  m_PrefabInstance: {fileID: 8768624503566341989}
+  m_PrefabAsset: {fileID: 0}

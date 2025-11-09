@@ -1,0 +1,44 @@
+~ TOOLS USED ~
+
+- Unity 2021
+- Ultimate CRT
+- PSXEffects
+- Adobe Photoshop
+- 
+
+
+
+~ VISUALS ~
+
+- Stylized Water Waves of Pools by TextureCan
+https://www.texturecan.com/details/282/
+
+
+
+~ AUDIO ~
+
+- SD13x03-Pearl-HP,TSn-HdE-v05.wav by quartertone (freesound.org)
+https://freesound.org/people/quartertone/sounds/146673/
+
+- crash_2_ting_cut.wav by -zin- (freesound.org)
+https://freesound.org/people/-zin-/sounds/34809/
+
+- crash_3_ting.wav by -zin- (freesound.org)
+https://freesound.org/people/-zin-/sounds/34810/
+
+- folk inspired acoustic guitar.wav by freemanwalking (freesound.org)
+https://freesound.org/people/freemanwalking/sounds/679358/
+
+- Glitched drum loop 127 bpm by so6er (freesound.org)
+https://freesound.org/people/so6er/sounds/757856/
+
+- Footsteps, Indoor, Soft.wav by BurghRecords at freesound.org
+https://freesound.org/people/BurghRecords/sounds/386929/
+
+- 
+
+
+
+
+~ CODE ~
+

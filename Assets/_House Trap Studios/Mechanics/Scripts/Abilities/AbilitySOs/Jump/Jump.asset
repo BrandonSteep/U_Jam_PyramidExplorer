@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b2ff15b19a5304da043ab1af976f2a, type: 3}
+  m_Name: Jump
+  m_EditorClassIdentifier: 
+  cooldownTimer: {fileID: 11400000, guid: 9fe42c6fe9d4a7544aca3533cd7ccb16, type: 2}
+  spriteImage: {fileID: 21300000, guid: f2423d1120d589c488479cd0dd87741c, type: 3}
+  triggerOnUpdate: 0
+  activateSfx: {fileID: 8300000, guid: a9ed7cfaee7b8bf45a7bb50c6cb95746, type: 3}
+  canJump: 1
+  jumpForce: 100
+  jumpBufferTime: 0.2
+  gravityDisableTime: 0.2

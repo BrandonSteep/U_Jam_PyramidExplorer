@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acfb148a478e9f442be7f9f5b6085acc, type: 3}
+  m_Name: Stats_AI_Test_Hitscan_Shotgun
+  m_EditorClassIdentifier: 
+  maxHealth: 30
+  movementIntervalMin: 1
+  movementIntervalMax: 3
+  attackIntervalMin: 1.75
+  attackIntervalMax: 4
+  meleeDistance: 2.5
+  projectileDamageMin: 5
+  projectileDamageMax: 25
+  projectileSpeed: 0
+  weaponStats: {fileID: 11400000, guid: 4592fc0fb2136344bb83c4df31acdc60, type: 2}
+  isHitscan: 1

@@ -1,0 +1,1 @@
+public class ShellEjector : Spawner { public void EjectCasing() { SpawnObject(); } }

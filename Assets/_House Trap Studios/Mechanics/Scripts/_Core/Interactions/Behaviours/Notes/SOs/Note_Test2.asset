@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edbe3f343098e04c8c729a364c55e1d, type: 3}
+  m_Name: Note_Test2
+  m_EditorClassIdentifier: 
+  noteName: Scribbles of Poop
+  noteImage: {fileID: 2800000, guid: 98b6cf09da9a9414cb7cf7779321d7ff, type: 3}
+  noteContents:
+  - "Fuck. I knew I shouldn't have eaten that Curry. I fucking KNEW it.\t"
+  - Not only did I shit myself AGAIN, but it erupted out of my ass like a terrible
+    smiting from hell itself. It forced itself out of my trousers, and sprayed the
+    entire room with fecal horrors beyond comprehension.
+  - 'There was shit EVERYWHERE.
+
+
+    It was in peoples'' hair, in their mouths,
+    in their noses.
+
+
+    Oh god, what have I done.'
+  - 'I will never recover. This is the end for me.
+
+
+    We will never forget P Day.'

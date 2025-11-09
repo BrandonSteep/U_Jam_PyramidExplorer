@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6ae7cb846e0b64a98e1a1bf8bc76ad, type: 3}
+  m_Name: ControllerSettings_Default
+  m_EditorClassIdentifier: 
+  walkSpeed: 2.75
+  aimWalkSpeedMultiplier: 0.75
+  moveSmoothTime: 0.15
+  runSpeedMultiplier: 2
+  currentStamina: {fileID: 11400000, guid: fc0be133d9541a34d88106d486543a56, type: 2}
+  maxStamina: {fileID: 11400000, guid: 428bfca5457e2e2448faf05d64b60ece, type: 2}
+  staminaDrainRate: 0
+  staminaRefillRate: 15
+  slopeForce: 100
+  slopeForceRayLength: 0
+  gravity: -25
+  lockCursor: 1

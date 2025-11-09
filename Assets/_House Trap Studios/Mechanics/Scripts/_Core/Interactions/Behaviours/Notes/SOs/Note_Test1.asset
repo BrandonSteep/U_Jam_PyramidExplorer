@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edbe3f343098e04c8c729a364c55e1d, type: 3}
+  m_Name: Note_Test1
+  m_EditorClassIdentifier: 
+  noteName: A Note Written in Poop
+  noteImage: {fileID: 2800000, guid: 9e8444de955ef2446aedcf6f069ab889, type: 3}
+  noteContents:
+  - "I shit myself at work today. I've never been so embarrased in my life. \n\nIt
+    was like a poonami. It stank out the the entire office floor, and everybody was
+    wincing at the smell all afternoon."
+  - 'Even worse, I tried to play dumb and it backfired (no pun intended). They all
+    stared at me and I couldn''t stop blushing.
+
+
+    My boss scheduled a 1-2-1 tomorrow,
+    in Meeting Room Number 2. I don''t know what to do. What if he fires me? What
+    would my wife say?'
+  - 'Screw it. I fucking hate my job anyway.
+
+
+    I think I''m gonna have Curry
+    for dinner.
+
+    That''ll teach those assholes.'

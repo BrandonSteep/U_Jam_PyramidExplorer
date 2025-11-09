@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd3fd18a4fa5ac42b2603e1a6a22632, type: 3}
+  m_Name: Grenade_Contact
+  m_EditorClassIdentifier: 
+  cooldownTimer: {fileID: 11400000, guid: 51633a07fa9d0b142a4b4225c8fa2cd5, type: 2}
+  spriteImage: {fileID: -2413806693520163455, guid: 02c4449789456cd499402dadd779d9c3, type: 3}
+  triggerOnUpdate: 0
+  activateSfx: {fileID: 0}
+  projectile: {fileID: 1656288358638939524, guid: 3e6db1b45cf63ae4ab579adf57812353, type: 3}

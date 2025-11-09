@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e03245759985c244a394046c37472fb, type: 3}
+  m_Name: 7_Revolver
+  m_EditorClassIdentifier: 
+  weaponPrefab: {fileID: 4735937077632476351, guid: 87c3e59ce43610544bc31a97fdaa6d72, type: 3}
+  damageMin: 60
+  damageMax: 120
+  fullAuto: 0
+  shotCount: 1
+  spread: {x: 0, y: 0, z: 0}
+  pierceAmount: 0
+  playTrail: 1
+  weaponRagdoll: {fileID: 6720628281794717950, guid: febd3a69539464d47992c545bbac9bd9, type: 3}
