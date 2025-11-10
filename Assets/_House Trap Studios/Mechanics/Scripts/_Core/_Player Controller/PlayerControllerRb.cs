@@ -23,6 +23,7 @@ namespace HouseTrap.Core.Controller {
 
         private Transform cameraHolderYaw;
         private Transform cameraHolderPitch;
+        private Vector2 cameraClamp;
 
 
         #endregion
@@ -36,9 +37,8 @@ namespace HouseTrap.Core.Controller {
             cameraHolderYaw = transform.GetChild(0);
             cameraHolderPitch = cameraHolderYaw.transform.GetChild(0);
             cam = ControllerReferences.cam;
-
-            groundSpeedMultiplier = SettingsManager.ControllerSettings.GetWalkSpeedMultiplier();
-            airSpeedMultiplier = SettingsManager.ControllerSettings.GetAirSpeedMultiplier();
+            
+            UpdateSettings();
             
             LockCursor();
         }
@@ -97,7 +97,7 @@ namespace HouseTrap.Core.Controller {
             // Debug.Log(currentMouseDelta);
 
             cameraPitch -= currentMouseDelta.y * MouseSensitivity.y * mouseLookMultiplier;
-            cameraPitch = Mathf.Clamp(cameraPitch, -90f, 90f);
+            cameraPitch = Mathf.Clamp(cameraPitch, cameraClamp.x, cameraClamp.y);
 
             cameraHolderPitch.localRotation = Quaternion.Euler(cameraPitch, 0f, 0f);
             cameraHolderYaw.Rotate(Vector3.up * (currentMouseDelta.x * (MouseSensitivity.x * mouseLookMultiplier)));
@@ -136,5 +136,11 @@ namespace HouseTrap.Core.Controller {
         public static Rigidbody GetRigidbody() { return rb; }
 
         #endregion
+
+        private void UpdateSettings() {
+            groundSpeedMultiplier = SettingsManager.ControllerSettings.GetWalkSpeedMultiplier();
+            airSpeedMultiplier = SettingsManager.ControllerSettings.GetAirSpeedMultiplier();
+            cameraClamp = SettingsManager.ControllerSettings.GetCameraClamp();
+        }
     }
 }

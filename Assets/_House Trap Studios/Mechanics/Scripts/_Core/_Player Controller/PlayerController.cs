@@ -10,13 +10,7 @@ namespace HouseTrap.Core.Controller {
         // INPUT //
         [Header("Input")]
         protected bool playerControllerEnabled = true;
-        protected Vector2 horizontalInput;
-        protected Vector2 mouseLookInput;
-        protected float running;
-        protected float aiming;
-        
-        protected Vector2 currentMouseDelta;
-        protected Vector2 currentMouseDeltaVelocity = Vector2.zero;
+        protected Vector2 horizontalInput, mouseLookInput, currentMouseDelta, currentMouseDeltaVelocity;
         
         // MOVEMENT //
         protected float moveSpeed;
@@ -24,7 +18,7 @@ namespace HouseTrap.Core.Controller {
         // MOUSELOOK //
         [Header("Mouselook")]
         protected float cameraPitch = 0.0f;
-        protected static Vector2 MouseSensitivity = new Vector2(35f, 35f);
+        protected static Vector2 MouseSensitivity = new(35f, 35f);
         [SerializeField] protected float mouseLookMultiplier = 0.1f;
         [SerializeField] [Range(0.0f, 0.5f)] protected float mouseSmoothTime = 0.03f;
         

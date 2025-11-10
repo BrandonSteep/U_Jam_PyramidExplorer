@@ -1,9 +1,10 @@
+using HouseTrap.Core.GameManagement;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace HouseTrap.Core.Interactions {
     public class InteractionRaycast : MonoBehaviour {
-        [SerializeField] private float interactionDistance;
+        private float interactionDistance;
         [SerializeField] private LayerMask targetableLayers;
 
         [SerializeField] private Transform interactableIcon;
@@ -14,6 +15,7 @@ namespace HouseTrap.Core.Interactions {
         private bool interactTrigger;
 
         private void Start() {
+            interactionDistance = SettingsManager.ControllerSettings.GetInteractionDistance();
             interactableIcon = GameObject.FindWithTag("InteractUI").transform;
             interactableIconRawImage = interactableIcon.GetComponent<RawImage>();
             interactableIconHover = interactableIcon.GetComponent<UIHoverAtWorldPosition>();
@@ -29,7 +31,7 @@ namespace HouseTrap.Core.Interactions {
 
         private bool GetInteractable() {
             if (!Physics.Raycast(this.transform.position, transform.forward, out var hit, interactionDistance,
-                    targetableLayers)) return false;
+                    targetableLayers) || !canInteract) return false;
             if (hit.collider.CompareTag("Interactable")) {
                 interactableIconHover.SetHoverTransform(hit.transform);
                 interactableIconRawImage.color = new Color32(255, 255, 255, 255);
@@ -39,9 +41,9 @@ namespace HouseTrap.Core.Interactions {
                 StopInteract();
 
                 return true;
-            } else {
-                return false;
             }
+
+            return false;
         }
 
         private void ResetUI() { interactableIconRawImage.color = new Color32(255, 255, 255, 0); }

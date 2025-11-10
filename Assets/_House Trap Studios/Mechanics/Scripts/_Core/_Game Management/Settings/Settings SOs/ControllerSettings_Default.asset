@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeedMultiplier: 5
   airSpeedMultiplier: 2
+  cameraClamp: {x: -90, y: 90}
   jumpForce: 12.5
   betterJumpEnabled: 1
   jumpCooldown: 0.15
@@ -21,3 +22,5 @@ MonoBehaviour:
   lowJumpMultiplier: 5
   coyoteTime: 0.1
   bufferTime: 0.1
+  interactionDistance: 2.25
+  throwForce: 7.5

@@ -298,6 +298,17 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""34b090db-1b79-4a2a-8d42-dfd84dad03d9"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Interact"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""0712ebf1-8331-4b59-afe3-600e7f17a510"",
                     ""path"": ""<Mouse>/rightButton"",
                     ""interactions"": """",

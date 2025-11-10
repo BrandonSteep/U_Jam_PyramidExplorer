@@ -12,18 +12,14 @@ namespace HouseTrap.Core.Interactions.Inspection {
         [SerializeField] protected GameObject itemNameTextBoxPrefab;
 
         [SerializeField] protected GameObject textBoxPrefab;
-        protected UI.UITextFade itemNameinstance;
-
-        protected GameEventListener escapeEvent;
+        private UI.UITextFade itemNameInstance;
+        
         protected bool isInspecting;
 
         #endregion
 
-        private void OnEnable() {
-            escapeEvent = GetComponent<GameEventListener>();
-        }
-
         public void Interact() {
+            Debug.Log($"Interacting with {itemName}");
             if (!isInspecting) {
                 StartInspecting();
             } else {
@@ -32,6 +28,8 @@ namespace HouseTrap.Core.Interactions.Inspection {
                 // StopInspecting();
             }
         }
+
+        public bool GetIsInspecting() { return isInspecting; }
 
         #region Run Inspection
 
@@ -50,14 +48,14 @@ namespace HouseTrap.Core.Interactions.Inspection {
         #region Enable & Disable Inspection
 
         protected virtual void StartInspecting() {
-            itemNameinstance = TextBoxManager.CreateNewStaticTextBox_TypewriterFX(itemName, itemNameTextBoxPrefab, 30f)
+            itemNameInstance = TextBoxManager.CreateNewStaticTextBox_TypewriterFX(itemName, itemNameTextBoxPrefab, 30f)
                 .GetComponent<UI.UITextFade>();
 
             isInspecting = true;
-            if (pausePlayerEvent != null) {
+            if (pausePlayerEvent) {
                 PausePlayer();
             } else {
-                Debug.LogWarning($"Pause Player Event not set on {this.gameObject.name}");
+                // Debug.LogWarning($"Pause Player Event not set on {gameObject.name}");
             }
 
             OnStartInspecting();
@@ -69,14 +67,14 @@ namespace HouseTrap.Core.Interactions.Inspection {
         protected virtual void StopInspecting() {
             ControllerReferences.interactionRaycast.DisableInteraction();
             isInspecting = false;
-            if (resumePlayerEvent != null) {
-                Invoke("ResumePlayer", inspectTransitionTime);
+            if (resumePlayerEvent) {
+                Invoke(nameof(ResumePlayer), inspectTransitionTime);
             } else {
-                Debug.LogWarning($"Resume Player Event not set on {this.gameObject.name}");
+                // Debug.LogWarning($"Resume Player Event not set on {gameObject.name}");
             }
 
             TextBoxManager.Instance.ClosePopups();
-            itemNameinstance.Fade();
+            itemNameInstance.Fade();
             OnStopInspecting();
         }
 
@@ -86,11 +84,11 @@ namespace HouseTrap.Core.Interactions.Inspection {
         public virtual void PauseInspecting() {
             isInspecting = false;
             TextBoxManager.Instance.ClosePopups();
-            itemNameinstance.Fade();
+            itemNameInstance.Fade();
         }
 
         public virtual void ResumeInspecting() {
-            itemNameinstance = TextBoxManager.CreateNewStaticTextBox_TypewriterFX(itemName, itemNameTextBoxPrefab, 30f)
+            itemNameInstance = TextBoxManager.CreateNewStaticTextBox_TypewriterFX(itemName, itemNameTextBoxPrefab, 30f)
                 .GetComponent<UI.UITextFade>();
             Invoke(nameof(SetInspectingTrue), 0.25f);
         }

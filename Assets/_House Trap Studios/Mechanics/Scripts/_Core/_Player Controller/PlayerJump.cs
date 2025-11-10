@@ -94,7 +94,7 @@ namespace HouseTrap.Core.Controller {
         
         private void BetterJump() {
             if (!betterJumpEnabled) return;
-            Debug.Log($"Linear Velocity Y: {rb.linearVelocity.y} & Falling: {isFalling}");
+            // Debug.Log($"Linear Velocity Y: {rb.linearVelocity.y} & Falling: {isFalling}");
             switch (rb.linearVelocity.y) {
                 case < -0.1f and > -20f:
                     rb.linearVelocity += Vector3.up * (Physics.gravity.y * (fallMultiplier - 1) * Time.deltaTime);

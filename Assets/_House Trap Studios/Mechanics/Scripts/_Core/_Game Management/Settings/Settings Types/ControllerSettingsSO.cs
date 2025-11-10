@@ -9,6 +9,9 @@ namespace HouseTrap.Core.GameManagement
         [Header("Movement Speed")]
         [SerializeField][Tooltip("Default value: 10")] private float walkSpeedMultiplier = 5f;
         [SerializeField][Tooltip("Default value: 4")] private float airSpeedMultiplier = 2.0f;
+
+        [Header("Mouselook")]
+        [SerializeField] private Vector2 cameraClamp = new Vector2(-90f, 90f);
         
         [Header("Jumping")]
         [SerializeField] private float jumpForce;
@@ -19,18 +22,27 @@ namespace HouseTrap.Core.GameManagement
         
         [SerializeField] private float coyoteTime = 0.1f;
         [SerializeField] private float bufferTime = 0.1f;
+        
+        [Header("Actions")]
+        [SerializeField] private float interactionDistance = 2.25f;
+
+        [SerializeField] private float throwForce = 15f;
+        
         #endregion
 
         #region Return Functions
         public float GetWalkSpeedMultiplier() { return walkSpeedMultiplier; }
+        public float GetAirSpeedMultiplier() { return airSpeedMultiplier; }
+        public Vector2 GetCameraClamp() { return cameraClamp; }
         public float GetJumpForce() { return jumpForce; }
         public bool GetBetterJumpEnabled() { return betterJumpEnabled; }
         public float GetJumpCooldown() { return jumpCooldown; }
         public float GetFallMultiplier() { return fallMultiplier; }
         public float GetLowJumpMultiplier() { return lowJumpMultiplier; }
-        public float GetAirSpeedMultiplier() { return airSpeedMultiplier; }
         public float GetCoyoteTime() { return coyoteTime; }
         public float GetBufferTime() { return bufferTime; }
+        public float GetInteractionDistance() { return interactionDistance; }
+        public float GetThrowForce() { return throwForce; }
         #endregion
     }
 }

@@ -34,7 +34,7 @@ TagManager:
   - GameManager
   - Target
   - Obstruction
-  - 13
+  - PhysicsObject
   - 14
   - 15
   - 16

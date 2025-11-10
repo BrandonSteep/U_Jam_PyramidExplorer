@@ -19,6 +19,7 @@ namespace HouseTrap.Core {
         }
 
         private void Update() {
+            if (!hoverTransform) return;
             uiElement.anchoredPosition = hoverOffset != Vector3.zero ? tools.WorldSpaceToCanvasSpace(
                 uiCanvasRectTransform, hoverTransform.position + hoverOffset) : tools.WorldSpaceToCanvasSpace(uiCanvasRectTransform, hoverTransform);
         }
@@ -28,7 +29,7 @@ namespace HouseTrap.Core {
         }
 
         public Transform GetHoverTransform() {
-            return hoverTransform;
+            return !hoverTransform ? transform : hoverTransform;
         }
     }
 }
