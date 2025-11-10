@@ -7,7 +7,7 @@ namespace HouseTrap.Core.Interactions.Pickups {
         [SerializeField] private Vector3 endRotation;
 
         private void Awake() {
-            transform.DORotate(endRotation, duration, RotateMode.FastBeyond360).SetEase(Ease.InOutSine)
+            transform.DOLocalRotate(endRotation, duration, RotateMode.FastBeyond360).SetEase(Ease.InOutSine)
                 .SetLoops(-1, LoopType.Restart);
         }
     }

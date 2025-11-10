@@ -18,6 +18,7 @@ namespace HouseTrap.Core.UI {
         private void Update() { AdjustSize(); }
 
         private void AdjustSize() {
+            if(!hover) return;
             var dist = Vector3.Distance(ControllerReferences.cam.transform.position,
                 hover.GetHoverTransform().position);
             if (dist > idealDistance) {

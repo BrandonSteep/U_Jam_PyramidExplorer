@@ -40,7 +40,7 @@ namespace HouseTrap.Core.Controller {
             
             if (cam == null) return;
             interactionRaycast = cam.GetComponent<InteractionRaycast>();
-            itemInspectPoint = cam.transform.GetChild(0).gameObject;
+            itemInspectPoint = cam.transform.GetChild(1).gameObject;
         }
 
 
