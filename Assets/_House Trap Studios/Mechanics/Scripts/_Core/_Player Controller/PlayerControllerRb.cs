@@ -1,3 +1,4 @@
+using HouseTrap.Core.GameManagement;
 using UnityEngine;
 
 namespace HouseTrap.Core.Controller {
@@ -36,6 +37,9 @@ namespace HouseTrap.Core.Controller {
             cameraHolderPitch = cameraHolderYaw.transform.GetChild(0);
             cam = ControllerReferences.cam;
 
+            groundSpeedMultiplier = SettingsManager.ControllerSettings.GetWalkSpeedMultiplier();
+            airSpeedMultiplier = SettingsManager.ControllerSettings.GetAirSpeedMultiplier();
+            
             LockCursor();
         }
 
@@ -115,7 +119,7 @@ namespace HouseTrap.Core.Controller {
             ControllerDisabled();
             currentMouseDelta = Vector2.zero;
             currentMouseDeltaVelocity = Vector2.zero;
-            ControllerReferences.playerAnim.SetInteger("Walking", 0);
+            ControllerReferences.playerAnim.SetInteger("Run", 0);
         }
         public override void EnablePlayerController() {
             playerControllerEnabled = true;

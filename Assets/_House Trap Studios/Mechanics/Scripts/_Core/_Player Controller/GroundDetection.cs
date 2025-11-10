@@ -32,7 +32,7 @@ namespace HouseTrap.Core {
         }
 
         private bool CheckSphere() {
-            var others = Physics.OverlapSphere(this.transform.position, 0.45f);
+            var others = Physics.OverlapSphere(transform.position, 0.45f);
             if (others.All(_other => (groundLayers & (1 << _other.gameObject.layer)) == 0)) return false;
 
             if (showDebugMessages) {
