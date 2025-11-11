@@ -25,6 +25,10 @@ namespace HouseTrap.BadThoughts {
             return !_sm.AwareOfTarget() ? stateStay : currentMoveState;
         }
 
+        public void Stagger(AIStateMachineManager _sm) {
+            throw new NotImplementedException();
+        }
+
         protected virtual State ChooseMovementType(AIStateMachineManager _sm) {
             var randomChoice = UnityEngine.Random.Range(0, 15);
             switch (randomChoice) {

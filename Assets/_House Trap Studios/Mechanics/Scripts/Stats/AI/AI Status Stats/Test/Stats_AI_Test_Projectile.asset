@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acfb148a478e9f442be7f9f5b6085acc, type: 3}
   m_Name: Stats_AI_Test_Projectile
   m_EditorClassIdentifier: 
-  maxHealth: 60
+  maxHealth: 2
   movementIntervalMin: 1
   movementIntervalMax: 3
   attackIntervalMin: 0.5
   attackIntervalMax: 3
   meleeDistance: 2.5
-  projectileDamageMin: 5
-  projectileDamageMax: 25
+  projectileDamageMin: 0.75
+  projectileDamageMax: 1.25
   projectileSpeed: 10
+  projectileLifetime: 10
+  weaponStats: {fileID: 0}
   isHitscan: 0

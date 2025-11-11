@@ -3,12 +3,12 @@ using UnityEngine;
 
 namespace HouseTrap.Core {
     public class KnockbackRb : MonoBehaviour, IKnockback {
-        public static IKnockback Instance;
-        private static Rigidbody rb;
+        public IKnockback Instance;
+        private Rigidbody rb;
 
         private void Start() {
             Instance = this;
-            rb = PlayerControllerRb.GetRigidbody();
+            rb = GetComponent<Rigidbody>();
         }
 
         public void AddImpact(Vector3 _direction, float _forceAmount, ForceMode _forceMode) {

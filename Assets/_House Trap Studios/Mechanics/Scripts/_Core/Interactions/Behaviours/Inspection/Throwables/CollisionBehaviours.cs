@@ -1,8 +1,11 @@
 using HouseTrap.Audio;
+using HouseTrap.BadThoughts;
 using UnityEngine;
 
 namespace HouseTrap.Core.Interactions.Inspection.PhysicsObject {
     public class CollisionBehaviours : MonoBehaviour {
+        [SerializeField] protected float damage = 5f;
+        [SerializeField] protected float stoppingPower = 5f;
         [SerializeField] protected float smashForce = 10f;
         [SerializeField] protected AudioClip smashSound;
         private InteractionInspectPickUp interactable;
@@ -31,6 +34,10 @@ namespace HouseTrap.Core.Interactions.Inspection.PhysicsObject {
 
             if (itemSpawnerSpawner) {
                 itemSpawnerSpawner.SpawnItem();
+            }
+            
+            if (_other.transform.TryGetComponent(out IDamageable damageable)) {
+                damageable.TakeDamage(transform, damage, stoppingPower);
             }
             
             Destroy(gameObject);

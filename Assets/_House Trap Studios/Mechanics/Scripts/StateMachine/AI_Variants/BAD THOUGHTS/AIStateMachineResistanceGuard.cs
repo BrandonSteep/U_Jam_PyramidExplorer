@@ -7,7 +7,7 @@ namespace HouseTrap.BadThoughts {
         [SerializeField] private SoundArray sounds;
 
         void OnEnable() {
-            DecisionHandler = new DecisionHandlerResistanceGuard();
+            decisionHandler = new DecisionHandlerResistanceGuard();
             sounds = GetComponent<SoundArray>();
         }
 

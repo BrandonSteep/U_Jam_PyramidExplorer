@@ -8,7 +8,7 @@ namespace HouseTrap.Core {
         private void OnTriggerEnter(Collider _other) {
             if (_other.gameObject == ControllerReferences.player) {
                 ControllerReferences.playerStatus.TakeDamage(this.transform,
-                    UnityEngine.Random.Range(stats.GetDamageMin(), stats.GetDamageMax()), this.gameObject);
+                    UnityEngine.Random.Range(stats.GetDamageMin(), stats.GetDamageMax()));
             }
         }
     }

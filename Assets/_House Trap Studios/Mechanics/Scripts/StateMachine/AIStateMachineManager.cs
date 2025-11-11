@@ -6,6 +6,7 @@ using UnityEngine.AI;
 
 namespace HouseTrap.BadThoughts {
     public class AIStateMachineManager : MonoBehaviour {
+        #region Variables
         [SerializeField] private GameObject masterObject;
         [SerializeField] private GameObject target;
         [SerializeField] private bool awareOnAwake;
@@ -17,9 +18,9 @@ namespace HouseTrap.BadThoughts {
         [SerializeField] private NavMeshAgent nav;
 
         // These can be changed on a per-enemy basis for increased behavioural variety
-        [Header("Handler Classes")] protected IDecisionHandler DecisionHandler = new DecisionHandler();
-        private FieldOfView fov;
+        [Header("Handler Classes")] protected IDecisionHandler decisionHandler = new DecisionHandler();
         [SerializeField] private AIAttackHandler attackHandler;
+        private FieldOfView fov;
 
         private State currentState;
         private State nextState;
@@ -37,37 +38,28 @@ namespace HouseTrap.BadThoughts {
 
         [Header("Attack Variables")] private float currentAttackTimer;
         private float attackTimer;
+        
+        private IKnockback knockback;
 
         // Variables to be moved to AIState Class
         [SerializeField] private AIStats stats;
         // [SerializeField] private bool ambush;
 
+        private Rigidbody rb;
+        #endregion
+
         #region Core Functionality
 
-        void Start() {
-            if (!masterObject) {
-                masterObject = this.gameObject;
-            }
+        private void Start() {
+            if(!masterObject) masterObject = gameObject;
+            if(!nav) nav = masterObject.GetComponent<NavMeshAgent>();
+            if(!attackHandler) attackHandler= GetComponent<AIAttackHandler>();
+            if(!fov) fov = GetComponent<FieldOfView>();
+            if(!rb) rb = GetComponent<Rigidbody>();
+            knockback ??= GetComponent<IKnockback>();
 
-            if (!nav) {
-                nav = masterObject.GetComponent<NavMeshAgent>();
-            }
-
-            if (target == null) {
-                ChangeTarget(ControllerReferences.player);
-            }
-
-            if (!attackHandler) {
-                attackHandler = GetComponent<AIAttackHandler>();
-            }
-
-            if (startState != null) {
-                currentState = startState;
-            }
-
-            if (!fov) {
-                fov = GetComponent<FieldOfView>();
-            }
+            if (target == null) { ChangeTarget(ControllerReferences.player); }
+            if (startState != null) { currentState = startState; }
 
             InvokeRepeating(nameof(MakeAIDecisions), 0f, runStateInterval);
             InvokeRepeating(nameof(RunState), 0f, runStateInterval);
@@ -83,7 +75,7 @@ namespace HouseTrap.BadThoughts {
         }
 
         protected virtual void MakeAIDecisions() {
-            nextState = DecisionHandler.MakeAIDecisions(this);
+            nextState = decisionHandler.MakeAIDecisions(this);
             if (nextState != currentState) {
                 TransitionState(nextState);
             }
@@ -137,7 +129,6 @@ namespace HouseTrap.BadThoughts {
         private void EnableNavMeshRotation() {
             nav.updateRotation = true;
         }
-
         #endregion
 
         #region Movement
@@ -214,8 +205,34 @@ namespace HouseTrap.BadThoughts {
 
         #endregion
 
+        #region Knockback
+        public void Stagger(Transform _other, float _forceAmount) {
+            decisionHandler.Stagger(this);
+            knockback?.AddImpact(_other, _forceAmount);
+        }
+        
+        public void DisableNavigation() {
+            if (nav) {
+                nav.isStopped = true;
+                nav.enabled = false;
+            }
+            if (!rb) return;
+            rb.useGravity = true;
+            rb.isKinematic = false;
+        }
+        
+        public void EnableNavigation() {
+            if (rb) {
+                rb.isKinematic = true;
+                rb.useGravity = false;
+            }
+            if (!nav) return;
+            nav.enabled = true;
+            nav.isStopped = false;
+        }
+        #endregion
+        
         #region Misc Functions
-
         public IEnumerator RunTimer(float _endTime, Action<float> _valueToSet) {
             var t = 0f;
             while (t < 1f) {

@@ -23,7 +23,7 @@ public class ExplosiveDamage : MonoBehaviour
             // Debug.Log($"Hit with Layermask. Status.canTakeDamage = {other.GetComponent<Status>().CanTakeDamage()}");
             if (damageable != null /* && other.GetComponent<Status>().CanTakeDamage()*/){
                 // Debug.Log($"{other.name} is taking {stats.GetDamage()} points of Damage");
-                other.GetComponent<IDamageable>().TakeDamage(this.transform, stats.GetDamage(), origin);
+                other.GetComponent<IDamageable>().TakeDamage(this.transform, stats.GetDamage(), 10f);
             }
         }
     }

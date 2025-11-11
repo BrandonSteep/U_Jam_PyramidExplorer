@@ -43,7 +43,7 @@ namespace HouseTrap.BadThoughts {
             if ((shootableLayers.value & (1 << _other.gameObject.layer)) == 0) return;
             if (_other.CompareTag("Player") && stats != null || _other.CompareTag("Enemy") && stats != null) {
                 _other.GetComponent<IDamageable>()
-                    .TakeDamage(this.transform, stats.GetProjectileDamage(), origin);
+                    .TakeDamage(this.transform, stats.GetProjectileDamage(), 5f);
             }
 
             DestroyProjectile();

@@ -53,8 +53,8 @@ namespace HouseTrap.Core {
             }
         }
 
-        public void TakeDamage(Transform _other, float _damageAmount, GameObject _attackOrigin) {
-            Debug.Log($"Player hit with projectile from {_attackOrigin}, dealing {_damageAmount} damage");
+        public void TakeDamage(Transform _other, float _damageAmount) {
+            // Debug.Log($"Player hit with projectile from {_other.gameObject.name}, dealing {_damageAmount} damage");
             if (!canTakeDamage || !isAlive) return;
             var damageToDeal = DamageWithArmourAdjustments(_damageAmount);
             Debug.Log($"Taking {damageToDeal} points of damage");
@@ -69,7 +69,7 @@ namespace HouseTrap.Core {
                     break;
             }
 
-            ControllerReferences.knockback.AddImpact(_attackOrigin.transform, knockbackForce);
+            ControllerReferences.knockback.AddImpact(_other, knockbackForce);
             if (currentHp.value <= 0f) {
                 Die();
             } else if (iFramesInSeconds > 0f) {

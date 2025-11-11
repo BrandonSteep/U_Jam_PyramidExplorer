@@ -29,13 +29,15 @@ namespace HouseTrap.BadThoughts {
             }
         }
 
-        public void TakeDamage(Transform _other, float _damageAmount, GameObject _attackOrigin) {
+        public void TakeDamage(Transform _other, float _damageAmount, float _forceAmount) {
             if (!canTakeDamage || !isAlive) return;
             if (!sm.AwareOfTarget()) {
                 sm.TargetFound();
             }
+            
+            sm.Stagger(_other, _forceAmount);
 
-            Debug.Log($"AI took {_damageAmount} points of damage from {_attackOrigin}");
+            Debug.Log($"AI took {_damageAmount} points of damage from {_other.gameObject.name}");
             currentHealth -= _damageAmount;
 
             PlayHitSound();
@@ -46,22 +48,6 @@ namespace HouseTrap.BadThoughts {
             // else{
             //     AddIFrames(iFramesInSeconds);
             // }
-        }
-
-        public void TakeDamage(Transform _other, float _damageAmount) {
-            if (!canTakeDamage || !isAlive) return;
-            if (!sm.AwareOfTarget()) {
-                sm.TargetFound();
-            }
-
-            Debug.Log($"AI took {_damageAmount} points of damage");
-            currentHealth -= _damageAmount;
-
-            PlayHitSound();
-
-            if (currentHealth <= 0f) {
-                Die();
-            }
         }
     }
 }

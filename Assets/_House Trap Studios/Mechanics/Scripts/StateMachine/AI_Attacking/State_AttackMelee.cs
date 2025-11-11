@@ -1,10 +1,10 @@
 namespace HouseTrap.BadThoughts {
     public class State_AttackMelee : State {
-        public override void RunState(AIStateMachineManager sm) {
-            sm.FacePlayer();
+        public override void RunState(AIStateMachineManager _sm) {
+            _sm.FacePlayer();
 
-            sm.SetDestination(sm.transform.position);
-            sm.MeleeAttack();
+            _sm.SetDestination(_sm.transform.position);
+            _sm.MeleeAttack();
         }
     }
 }

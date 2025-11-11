@@ -5,7 +5,7 @@ public class SimpleSpawnObjects : MonoBehaviour {
     [SerializeField] private GameObject[] objToSpawn;
     [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private bool destroyExistingOnSpawn;
-    private List<GameObject> spawnedObjects = new List<GameObject>();
+    private List<GameObject> spawnedObjects = new();
 
     private void Awake() {
         if (spawnOnAwake) {
@@ -14,7 +14,7 @@ public class SimpleSpawnObjects : MonoBehaviour {
     }
 
     public void Spawn() {
-        if (destroyExistingOnSpawn) {
+        if (destroyExistingOnSpawn && spawnedObjects.Count == 0) {
             for (var i = spawnedObjects.Count; i < 0; i--) {
                 Destroy(spawnedObjects[i]);
                 spawnedObjects.RemoveAt(i);
@@ -23,6 +23,7 @@ public class SimpleSpawnObjects : MonoBehaviour {
 
         for (var i = 0; i < objToSpawn.Length; i++) {
             spawnedObjects.Add(Instantiate(objToSpawn[i], spawnPoints[i] ? spawnPoints[i].localPosition : transform.localPosition, Quaternion.identity));
+            Debug.Log($"Spawned {objToSpawn[i].name} at {spawnPoints[i].localPosition}");
         }
     }
 }
